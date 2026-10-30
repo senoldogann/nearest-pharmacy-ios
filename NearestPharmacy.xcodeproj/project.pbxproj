@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3431F59CA78C5E3568E36AB3 /* PharmacyAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43CB907B3A53FA5CBD38CE9 /* PharmacyAPITests.swift */; };
+		4C2AC45E5F12606F58942F3E /* Overpass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08505944CB1C55F068961AE3 /* Overpass.swift */; };
+		51369ACC67926E2160605CE8 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C325617F88A7AEDCA3A4BB1 /* LocationProvider.swift */; };
+		54C04D9A028FC55298BF8543 /* GeoPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD02917B76CE981C3ADE924 /* GeoPoint.swift */; };
+		5D6E30B8E8D19555746FCCAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C07ACC663FF9F0E6316C543 /* ContentView.swift */; };
+		5EE295D080E092578F887C20 /* PharmacyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8797A18003E2A70A0B6A93D5 /* PharmacyDetailView.swift */; };
+		61B6A3AD5C7B63EF0D2FA3E9 /* PharmacyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AD30D25CE480A4521BFF55 /* PharmacyStore.swift */; };
+		691F94B5625101E58E10AB75 /* Nominatim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4AA5D11615DA73AD49B1E0 /* Nominatim.swift */; };
+		6A3B70508632099ABF561365 /* ResultsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65857B7ADA216A755B48128 /* ResultsCard.swift */; };
+		6EA01FE1BF606EF03E119111 /* NearestPharmacyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D971BE3C5A0B725BFBC79 /* NearestPharmacyApp.swift */; };
+		A70E75CC923E62857FB22870 /* Pharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38152586E37A1984FB92D5D /* Pharmacy.swift */; };
+		B0D5799038C75B7EA4A432A7 /* MapDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB7ACED83E08219C08AFA5 /* MapDataTests.swift */; };
+		B455AAA1A59589624ABFE98A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5030E6BB63B3D7F65A176CCA /* Localizable.strings */; };
+		C0D352FDC8E287D2A3A03394 /* SearchPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB467F199F304DFD867509C9 /* SearchPanel.swift */; };
+		C7EDD081286713F47482FC21 /* GeoPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD996C3B0CD8F5A27C6815AC /* GeoPointTests.swift */; };
+		CD041606FC984A85E56F55BD /* PharmacyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2F496AA6058855D7E9A2C /* PharmacyAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50C1270836487346FE795F90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 328C475EFD8113BBCF49253D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8A351058EA2DB884AFB716D;
+			remoteInfo = NearestPharmacy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08505944CB1C55F068961AE3 /* Overpass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overpass.swift; sourceTree = "<group>"; };
+		1C4AA5D11615DA73AD49B1E0 /* Nominatim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nominatim.swift; sourceTree = "<group>"; };
+		2DD02917B76CE981C3ADE924 /* GeoPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoPoint.swift; sourceTree = "<group>"; };
+		4B716FADCEA48F8008DD772D /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6C07ACC663FF9F0E6316C543 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C325617F88A7AEDCA3A4BB1 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
+		834465C77CC6EE38F9DF60B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8797A18003E2A70A0B6A93D5 /* PharmacyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyDetailView.swift; sourceTree = "<group>"; };
+		93AD30D25CE480A4521BFF55 /* PharmacyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyStore.swift; sourceTree = "<group>"; };
+		A43CB907B3A53FA5CBD38CE9 /* PharmacyAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyAPITests.swift; sourceTree = "<group>"; };
+		ACF70905D439B9FFFFD5FFB5 /* NearestPharmacy.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = NearestPharmacy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC44268AF8E3BC4A63419B4 /* NearestPharmacyTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NearestPharmacyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD996C3B0CD8F5A27C6815AC /* GeoPointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoPointTests.swift; sourceTree = "<group>"; };
+		BDA2F496AA6058855D7E9A2C /* PharmacyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyAPI.swift; sourceTree = "<group>"; };
+		C65857B7ADA216A755B48128 /* ResultsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsCard.swift; sourceTree = "<group>"; };
+		D242BA8CFEDDFC1C883B9CC9 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D38152586E37A1984FB92D5D /* Pharmacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pharmacy.swift; sourceTree = "<group>"; };
+		EB467F199F304DFD867509C9 /* SearchPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPanel.swift; sourceTree = "<group>"; };
+		F28D971BE3C5A0B725BFBC79 /* NearestPharmacyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestPharmacyApp.swift; sourceTree = "<group>"; };
+		F71EAA7BD6313A26BC68B858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FACB7ACED83E08219C08AFA5 /* MapDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDataTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		14B23E0664886295B01CFB43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F71EAA7BD6313A26BC68B858 /* Info.plist */,
+				5030E6BB63B3D7F65A176CCA /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2877838A0FA78419E0CA865A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACF70905D439B9FFFFD5FFB5 /* NearestPharmacy.app */,
+				AEC44268AF8E3BC4A63419B4 /* NearestPharmacyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		308205BEABB1BBF161FA72C3 = {
+			isa = PBXGroup;
+			children = (
+				14B23E0664886295B01CFB43 /* Resources */,
+				DF91E3B022033594498EEA36 /* Sources */,
+				821718083820D5175151A1E6 /* Tests */,
+				2877838A0FA78419E0CA865A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F9C26357EA211B4781E0CAC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				93AD30D25CE480A4521BFF55 /* PharmacyStore.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		821718083820D5175151A1E6 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD996C3B0CD8F5A27C6815AC /* GeoPointTests.swift */,
+				FACB7ACED83E08219C08AFA5 /* MapDataTests.swift */,
+				A43CB907B3A53FA5CBD38CE9 /* PharmacyAPITests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		B3BA87C2A4DD40BC4F46DC21 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F28D971BE3C5A0B725BFBC79 /* NearestPharmacyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BC69F1E4A900C6A9E429907C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C07ACC663FF9F0E6316C543 /* ContentView.swift */,
+				8797A18003E2A70A0B6A93D5 /* PharmacyDetailView.swift */,
+				C65857B7ADA216A755B48128 /* ResultsCard.swift */,
+				EB467F199F304DFD867509C9 /* SearchPanel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF8301BCC23A1479F5FC2D65 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2DD02917B76CE981C3ADE924 /* GeoPoint.swift */,
+				D38152586E37A1984FB92D5D /* Pharmacy.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF91E3B022033594498EEA36 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B3BA87C2A4DD40BC4F46DC21 /* App */,
+				CF8301BCC23A1479F5FC2D65 /* Models */,
+				ED2A3AB4BACACCE8A3504BF0 /* Services */,
+				3F9C26357EA211B4781E0CAC /* ViewModels */,
+				BC69F1E4A900C6A9E429907C /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		ED2A3AB4BACACCE8A3504BF0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6C325617F88A7AEDCA3A4BB1 /* LocationProvider.swift */,
+				1C4AA5D11615DA73AD49B1E0 /* Nominatim.swift */,
+				08505944CB1C55F068961AE3 /* Overpass.swift */,
+				BDA2F496AA6058855D7E9A2C /* PharmacyAPI.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6275E32725B2D29A5EAC3A3E /* NearestPharmacyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 901C2DF2FC38106D2A5B4D03 /* Build configuration list for PBXNativeTarget "NearestPharmacyTests" */;
+			buildPhases = (
+				1CE681138E0F44BFC18FDF25 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD4B7672585EC04F83EFFA05 /* PBXTargetDependency */,
+			);
+			name = NearestPharmacyTests;
+			packageProductDependencies = (
+			);
+			productName = NearestPharmacyTests;
+			productReference = AEC44268AF8E3BC4A63419B4 /* NearestPharmacyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8A351058EA2DB884AFB716D /* NearestPharmacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63BEFB5A4688993D2802C2CD /* Build configuration list for PBXNativeTarget "NearestPharmacy" */;
+			buildPhases = (
+				DB62CAE966360545BF47A87D /* Sources */,
+				B156C7F2B5FB0DC5F1A9E5A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearestPharmacy;
+			packageProductDependencies = (
+			);
+			productName = NearestPharmacy;
+			productReference = ACF70905D439B9FFFFD5FFB5 /* NearestPharmacy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		328C475EFD8113BBCF49253D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E8A351058EA2DB884AFB716D = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DA97A4FE924B4024D399E8DC /* Build configuration list for PBXProject "NearestPharmacy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				fi,
+				sv,
+			);
+			mainGroup = 308205BEABB1BBF161FA72C3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2877838A0FA78419E0CA865A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8A351058EA2DB884AFB716D /* NearestPharmacy */,
+				6275E32725B2D29A5EAC3A3E /* NearestPharmacyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B156C7F2B5FB0DC5F1A9E5A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B455AAA1A59589624ABFE98A /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CE681138E0F44BFC18FDF25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EDD081286713F47482FC21 /* GeoPointTests.swift in Sources */,
+				B0D5799038C75B7EA4A432A7 /* MapDataTests.swift in Sources */,
+				3431F59CA78C5E3568E36AB3 /* PharmacyAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB62CAE966360545BF47A87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D6E30B8E8D19555746FCCAB /* ContentView.swift in Sources */,
+				54C04D9A028FC55298BF8543 /* GeoPoint.swift in Sources */,
+				51369ACC67926E2160605CE8 /* LocationProvider.swift in Sources */,
+				6EA01FE1BF606EF03E119111 /* NearestPharmacyApp.swift in Sources */,
+				691F94B5625101E58E10AB75 /* Nominatim.swift in Sources */,
+				4C2AC45E5F12606F58942F3E /* Overpass.swift in Sources */,
+				A70E75CC923E62857FB22870 /* Pharmacy.swift in Sources */,
+				CD041606FC984A85E56F55BD /* PharmacyAPI.swift in Sources */,
+				5EE295D080E092578F887C20 /* PharmacyDetailView.swift in Sources */,
+				61B6A3AD5C7B63EF0D2FA3E9 /* PharmacyStore.swift in Sources */,
+				6A3B70508632099ABF561365 /* ResultsCard.swift in Sources */,
+				C0D352FDC8E287D2A3A03394 /* SearchPanel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD4B7672585EC04F83EFFA05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8A351058EA2DB884AFB716D /* NearestPharmacy */;
+			targetProxy = 50C1270836487346FE795F90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5030E6BB63B3D7F65A176CCA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				834465C77CC6EE38F9DF60B1 /* en */,
+				4B716FADCEA48F8008DD772D /* fi */,
+				D242BA8CFEDDFC1C883B9CC9 /* sv */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4245CDAC36CFE01CD5EFF724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.senoldogan.nearestpharmacy;
+				PRODUCT_NAME = NearestPharmacy;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4D58CD237B89085CDDF105BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.senoldogan.nearestpharmacy.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearestPharmacy.app/NearestPharmacy";
+			};
+			name = Debug;
+		};
+		6960384575BEDC444D193820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.senoldogan.nearestpharmacy;
+				PRODUCT_NAME = NearestPharmacy;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BBD238B0C900F4EFD0F4052F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.senoldogan.nearestpharmacy.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearestPharmacy.app/NearestPharmacy";
+			};
+			name = Release;
+		};
+		D1D52DB834853266D5EA7696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.10;
+			};
+			name = Release;
+		};
+		D5C3414CC5D96537F29398D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.10;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63BEFB5A4688993D2802C2CD /* Build configuration list for PBXNativeTarget "NearestPharmacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4245CDAC36CFE01CD5EFF724 /* Debug */,
+				6960384575BEDC444D193820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		901C2DF2FC38106D2A5B4D03 /* Build configuration list for PBXNativeTarget "NearestPharmacyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D58CD237B89085CDDF105BF /* Debug */,
+				BBD238B0C900F4EFD0F4052F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DA97A4FE924B4024D399E8DC /* Build configuration list for PBXProject "NearestPharmacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C3414CC5D96537F29398D4 /* Debug */,
+				D1D52DB834853266D5EA7696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 328C475EFD8113BBCF49253D /* Project object */;
+}
